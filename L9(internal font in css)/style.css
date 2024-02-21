@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     text-align: justify;
-    color: #fff;
+    color: #000000;
+    image-resolution: green;
 }
 
 header {
@@ -38,4 +39,5 @@ iframe {
 }
 h2{
     font-style:italic;
+    text-align: center;
 }
