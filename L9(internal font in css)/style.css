@@ -3,8 +3,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: justify;
-    color: #000000;
-    image-resolution: green;
+    color: floralwhite
 }
 
 
@@ -120,6 +119,12 @@ button:hover {
     display: flex;
     flex-direction: column;
 }
+
+.bg{
+    background: url(./4127298.jpg);
+    background-size: cover;
+}
+
 
 /* .logo-1{
     margin-right: 50vh ;
