@@ -101,7 +101,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: #4caf50;
+    background-color: #435adb;
     color: white;
     border: none;
     border-radius: 4px;
@@ -121,8 +121,11 @@ button:hover {
 }
 
 .bg{
-    background: url(./4127298.jpg);
+    background: url(./technology-logo-template-with-abstract-shapes_23-2148240846.avif);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
