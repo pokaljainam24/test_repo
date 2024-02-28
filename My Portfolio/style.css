@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(97, 107, 194);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3952e0;
+    color: #03d7f3;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0616f5ab;
+}
+
+button{
+    background: rgb(55, 3, 243) ;
+    color: #ffffff;
+}
