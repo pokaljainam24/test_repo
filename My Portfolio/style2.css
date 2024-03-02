@@ -63,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
     height: 100vh;
 }
 
@@ -127,7 +127,7 @@ button:nth-child(2):hover{
 .icons .fa-brands:hover{
     cursor: pointer;
     background: linear-gradient(#fff, #3877ff);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
