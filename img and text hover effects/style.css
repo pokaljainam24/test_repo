@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(./ello-optimized-6196a2e7.webp);
+    /* background-image: url(./SL-121620-38890-59.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+#text-1{
+    color:blue;
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.card>img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.content{
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+.card:hover .content{
+    bottom: 10px;
+}
+
+.card:hover img{
+    filter: brightness(0.6);
+}
