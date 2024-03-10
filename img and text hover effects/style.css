@@ -37,6 +37,7 @@ html,body{
     text-align: center;
     font-family: cursive;
     font-style: oblique;
+    cursor: pointer;
 }
 
 .card>img{
@@ -46,7 +47,7 @@ html,body{
     cursor: pointer;
 }
 
-.content{
+.content {
     position: absolute;
     bottom: -100px;
     left: 10px;

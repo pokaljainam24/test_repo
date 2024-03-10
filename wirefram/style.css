@@ -1,0 +1,128 @@
+body{
+    max-width:1000px;
+    padding:1em;
+    font-family:Helvetica,Arial,sans-serif;
+    display: flex;
+}
+
+div,section,main,aside,header,footer{
+    border:3px solid whitesmoke;
+    padding:.7em;
+    margin-bottom:1rem;
+    justify-content: center;
+}
+
+.img-2{
+    height: 150px;
+    background-image: url(./free-photo-flowers-blossom-floral-bouquet-decoration-colorful-beautiful-background-garden-flowers-plant-pattern_1340-26133.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-3{
+    height: 150px;
+    background-image: url(./closeup-shot-beautiful-butterfly-with-interesting-textures-orange-petaled-flower_181624-7640.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img{
+    background-image: url(./image-upload-concept-illustration_114360-798.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.group{
+    color: white;
+}
+
+
+footer .box-1{
+    padding: auto;
+    margin-top: 10px;
+}
+
+footer .box-2{
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+footer{
+    width: 500px;
+    background-image: url(./img-4.jpg);
+}
+
+aside{
+    background-image: url(./img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    background-image: url(./img-4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.introduction:hover{
+    background-image: url(./img-3.jpg);
+    transition: 0.3s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.blog-post{
+    background-color: azure;
+}
+
+.blog-post-1{
+    background-color: aqua;
+}
+
+.box:hover{
+    color: black;
+    background-image: url(./image-upload-concept-illustration_114360-798.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+header:hover{
+    background-image: url(./img-4.jpg);
+    transition: 1s;
+    color: white;
+}
+
+.tagline{
+    color: black;
+}
+
+.box-1:hover{
+    background-image: url(./img-5.jpg);
+    transition: 0.3s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box-2{
+    background-color: white;
+}
+
+.box-3{
+    background-color: white;
+}
+
+footer{
+    background-color: rgb(3, 3, 3);
+}
+
