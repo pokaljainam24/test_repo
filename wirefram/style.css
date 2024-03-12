@@ -82,6 +82,7 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+    cursor: pointer;
 }
 
 .blog-post{
@@ -99,12 +100,14 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 header:hover{
     background-image: url(./img-4.jpg);
     transition: 1s;
     color: white;
+    cursor: pointer;
 }
 
 .tagline{
@@ -117,6 +120,7 @@ header:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .box-2{
