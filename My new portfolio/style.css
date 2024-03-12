@@ -1,6 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: black;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
 }
 
 /* -------------------------header------------------------------ */
@@ -8,8 +14,8 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
     align-items: center;
+    background: linear-gradient(50deg, #5162deea, rgba(69, 176, 248, 0.829) 70%);
 }
 
 .logo{
@@ -19,18 +25,45 @@ body{
 
 .manu-option > a{
     margin-left: 30px;
+    color: black;
+}
+
+a:hover{
+    stroke: rgb(6, 5, 5);
+    color: white;
+    border-radius: 1px;
+}
+
+button:hover{
+    background: rgb(14, 14, 14);
+    color: rgb(240, 233, 233);
+    cursor: pointer;
 }
 
 /* ------------------------------------home--------------------------------------------- */
 
 .home{
-    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
     align-items: center;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.intro{
+    width: 50%;
 }
 
 .my-img{
     height: 200px;
     width: 200px;
+    border: 1px solid black;
+    border-top-left-radius: 500%;
+    border-top-right-radius: 80%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 70%;
+    background: linear-gradient(50deg, #1e2c9973, rgba(28, 150, 211, 0.945) 90%);
 }
 
 
