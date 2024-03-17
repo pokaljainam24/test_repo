@@ -1,6 +1,29 @@
-body{
+html {
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px skyblue;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: greenyellow;
+        border-radius: 10px;
+    }
+}
+
+
+body {
     margin: 0;
     padding: 0;
+    width: 100%;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,83 +32,279 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* -------------------------header------------------------------ */
 
-.header{
+
+/* --------------------------------------------------------------------------header--------------------------------------------------------------------- */
+
+.header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 20px;
     background: linear-gradient(50deg, #5162deea, rgba(69, 176, 248, 0.829) 70%);
     background: transparent;
 }
 
-.logo{
-    height: 75px;
-    width: 85px;
+.logo {
+    height: 65px;
+    width: 100px;
 }
 
-.manu-option > a{
+.manu-option>a {
     margin-left: 30px;
     color: white;
 }
 
-a:hover{
+a:hover {
     stroke: rgb(6, 5, 5);
     color: greenyellow;
     border-radius: 1px;
 }
 
-button{
+button {
     border: .1rem solid white;
     font-size: 1.1rem;
-    padding: .5rem 1.5rem;
+    /* padding: .5rem 1.5rem; */
     border-radius: .5rem;
     cursor: pointer;
     transition: .3s ease;
 }
 
-button:hover{
-    background:rgba(69, 176, 248, 0.829);
-    color: black;
+button:hover {
+    background: black;
+    color: greenyellow;
     cursor: pointer;
 }
 
-/* ------------------------------------home--------------------------------------------- */
 
-.home{
+
+/* --------------------------------------------------------------------home----------------------------------------------------------------------------- */
+
+.home {
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    padding-top: 12%;
+    justify-content: space-around;
     align-items: center;
-    transform: translateY(100px);
-    transition:  opacity 0.5s ease,transform 0.5s ease;
 }
 
-.intro{
+.intro {
     width: 50%;
 }
 
-.intro h1 span:hover{
+.intro h1 span:hover {
     color: greenyellow;
     transition: .5s ease;
     cursor: pointer;
 }
 
-.intro>:nth-child(2){
-    color: skyblue;
+.intro>:nth-child(2) {
+    color: rgb(10, 229, 87);
 }
 
-.my-img{
+.my-img {
     height: 200px;
     width: 200px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-top-left-radius: 500%;
     border-top-right-radius: 80%;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 70%;
     cursor: pointer;
     background: linear-gradient(50deg, #1e2c9973, rgba(28, 150, 211, 0.945) 90%);
+    box-shadow: greenyellow 20px;
 }
 
 
 
+/* --------------------------------------------------------------------about---------------------------------------------------------------------------- */
+
+
+#about {
+    width: 100%;
+    padding: 30px;
+    padding-top: 5%;
+}
+
+#about h2 {
+    text-align: center;
+    color: greenyellow;
+}
+
+#about>div {
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.contant {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-txt {
+    font-size: 15px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+ol {
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.social-icon:hover {
+    color: greenyellow;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+
+/* --------------------------------------------------------------------skills-------------------------------------------------------------------------- */
+
+
+#skills {
+    width: 100%;
+    /* border: 1px solid white; */
+    padding-top: 4%;
+    background-color: #1a1a1a;
+    border-radius: 40%;
+    margin: auto;
+}
+
+#skills>h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: greenyellow;
+}
+
+#skills>div {
+    padding: 30px;
+    /* width: 60%; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#skills>div>i {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i:hover {
+    color: greenyellow;
+    transition: scale(-0.5, 1);
+    cursor: pointer;
+}
+
+
+/* --------------------------------------------------------------------Porject-------------------------------------------------------------------- */
+
+#projects {
+    width: 100%;
+    padding-top: 5%;
+}
+
+.projects_header{
+    display: flex;
+    justify-content: center;
+    color: greenyellow;
+}
+
+.project-contant>h3{
+    /* display: flex;
+    justify-content: center; */
+    padding-left: 45px;
+}
+
+#projects>div {
+    /* border: 1px solid #ffffff; */
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-no {
+    width: 10%;
+    padding: 10px;
+}
+
+.project-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-contant {
+    width: 20%;
+}
+
+.project-contant>h3 {
+    font-size: 1rem;
+    color: white;
+}
+
+.project-desc {
+    font-size: 12px;
+}
+
+.tech-stack {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+}
+
+.tech-stack>div {
+    margin: 5px;
+    font-size: 11px;
+}
+
+.project-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-btn>a>i {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+a>i:hover {
+    color: greenyellow;
+    transition: scale(-0.5, 1);
+    cursor: pointer;
+}
+
+.project-btn>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: greenyellow;
+    transition: scale(-0.5, 1);
+    cursor: pointer;
+}
+
+.projecrt-img {
+    height: 40%;
+    width: 50%;
+}
