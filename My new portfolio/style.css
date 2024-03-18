@@ -119,7 +119,6 @@ button:hover {
 
 /* --------------------------------------------------------------------about---------------------------------------------------------------------------- */
 
-
 #about {
     width: 100%;
     padding: 30px;
@@ -159,7 +158,7 @@ ol {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     gap: 10px;
     font-size: 1.5rem;
 }
@@ -172,7 +171,6 @@ ol {
 
 
 /* --------------------------------------------------------------------skills-------------------------------------------------------------------------- */
-
 
 #skills {
     width: 100%;
@@ -229,7 +227,7 @@ i:hover {
 .project-contant>h3{
     /* display: flex;
     justify-content: center; */
-    padding-left: 45px;
+    padding-left: 95px;
 }
 
 #projects>div {
@@ -237,7 +235,7 @@ i:hover {
     width: 80%;
     margin: 40px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .project-no {
@@ -262,7 +260,7 @@ i:hover {
 }
 
 .project-desc {
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 .tech-stack {
@@ -304,7 +302,12 @@ a:hover {
     cursor: pointer;
 }
 
-.projecrt-img {
-    height: 40%;
-    width: 50%;
+.projecrt-img > img {
+    height: 250px;
+    width: 400px;
+}
+
+.projecrt-img{
+    height: 300px;
+    border-bottom: 2px solid greenyellow;
 }
