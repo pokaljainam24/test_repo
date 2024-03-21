@@ -190,8 +190,8 @@ ol {
     font-size: 1.5rem;
 }
 
-.social-icon:hover {
-    color: greenyellow;
+.social-icon>i:hover {
+    color: rgb(89, 255, 47);
     transition: .5s ease;
     cursor: pointer;
 }
@@ -229,7 +229,7 @@ ol {
     align-items: center;
 }
 
-i:hover {
+#skills>div>i:hover {
     color: greenyellow;
     transition: scale(-0.5, 1);
     cursor: pointer;
