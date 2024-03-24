@@ -45,9 +45,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    margin: auto;
     background: #fafafa;
-    background: transparent;
+    background-image: url(./images/sadsxxa_10.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(4px);
 }
 
 .logo {
@@ -384,12 +388,17 @@ a>i:hover {
     background-color: #081b29;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 
 #section {
     width: 100%;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .box-1 {
@@ -574,7 +583,12 @@ footer {
     justify-content: space-between;
 }
 
-.footer-section>ul{
+.footer-section>p{
+    color: rgb(0, 239, 40);
+    cursor: pointer;
+}
+
+.footer-icon>ul{
     display: inline-block;
     padding: 10px;
     width: auto;
@@ -586,6 +600,12 @@ footer {
     color: #fff;
 }
 
-.footer-section>h3 {
+.footer-icon>h3 {
     text-align: center;
+}
+
+.footer-icon>ul>i:hover{
+    color: rgb(0, 239, 40);
+    transition: scale(-0.5, 1);
+    cursor: pointer;
 }
