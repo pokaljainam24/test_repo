@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background:url(./13710.jpg);
+    background:url(./images/13710.jpg);
     backdrop-filter: blur(3px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@ body{
 }
 
 .page-2{
-    background-image: url(./18306.jpg);
+    background-image: url(./images/18306.jpg);
     flex-direction: column;
     width: 400px;
     height: 400px;
