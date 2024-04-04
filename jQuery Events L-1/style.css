@@ -1,0 +1,19 @@
+#click{
+    width: 5%;
+    position: absolute;
+    background-color: aqua;
+}
+
+.mydiv{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+}
+
+.mydiv-2{
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: cornflowerblue;
+}
