@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(./images/trees-drawn_1160-909.avif);
-    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
     background-size: cover;
 }
 
@@ -20,6 +20,7 @@ body {
 
 .card-header {
     padding: 20px;
+    width: auto;
     cursor: pointer;
     border-bottom: 1px solid #e0e0e0;
     text-align: center;
@@ -30,6 +31,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 96, 0, 0.581);
+}
+
+.card-body>img:hover{
+    transform: rotate(5deg);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+p{
+    color: chartreuse;
+    cursor: pointer;
 }
 
 .card-content {
