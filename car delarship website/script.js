@@ -12,6 +12,13 @@ $(document).ready(function() {
             selectedDates.push($(this).val());
         });
 
+
+        
+        $('input[name="date"]:checked').each(function() {
+            selectedDates.push($(this).val());
+        });
+    
+
         $('#selectedDates').empty();
         if (selectedDates.length > 0) {
             $('#selectedDates').append('Date Selected');
@@ -22,6 +29,7 @@ $(document).ready(function() {
             $('#selectedDates').append('<p>No dates selected.</p>');
         }
     });
+
 
 });
 
@@ -60,4 +68,5 @@ $('.responsive').slick({
     // settings: "unslick"
     // instead of a settings object
   ]
+
 });
